@@ -32,7 +32,7 @@ export const PostItemTag = styled.div`
   text-transform: uppercase;
 `
 
-export const PostItemInwfo = styled.div`
+export const PostItemInfo = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 1.5rem;
