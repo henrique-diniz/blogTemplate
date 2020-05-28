@@ -20,7 +20,7 @@ export const PostItemWrapper = styled.section`
 
 export const PostItemTag = styled.div`
   align-items: center;
-  background: ${props => props.background};
+  background: ${props => (props.background ? props.background : "#1fa1f2")};
   border-radius: 50%;
   color: #fff;
   display: flex;
@@ -32,7 +32,7 @@ export const PostItemTag = styled.div`
   text-transform: uppercase;
 `
 
-export const PostItemInfo = styled.div`
+export const PostItemInwfo = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 1.5rem;
